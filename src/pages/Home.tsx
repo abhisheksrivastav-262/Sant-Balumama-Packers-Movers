@@ -285,19 +285,6 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="max-w-5xl mx-auto overflow-hidden rounded-2xl bg-black shadow-2xl ring-1 ring-black/10">
-            <video
-              className="block w-full aspect-video"
-              controls
-              playsInline
-              preload="metadata"
-              poster="/videos/packing-process-poster.jpg"
-              aria-label="Hamara packing process step by step video, with audio"
-            >
-              <source src="/videos/packing-process.mp4" type="video/mp4" />
-              Your browser does not support HTML video.
-            </video>
-          </div>
         </div>
       </section>
 
