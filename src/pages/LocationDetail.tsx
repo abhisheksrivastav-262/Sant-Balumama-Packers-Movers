@@ -60,7 +60,7 @@ export default function LocationDetailPage() {
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-extrabold text-[#17233D] mb-5">Our Services in {location.name}</h2>
               <p className="text-[#667085] leading-relaxed mb-8">
-                Shri Swami Samarth Packers & Movers provides relocation services in {location.fullName}, including household shifting, office relocation, packing and loading, and vehicle transportation. Whether you're moving locally within {location.name} or relocating further, our team can help.
+                Sant Balumama Packers and Movers provides relocation services in {location.fullName}, including household shifting, office relocation, packing and loading, and vehicle transportation. Whether you're moving locally within {location.name} or relocating further, our team can help.
               </p>
 
               {/* Highlights */}

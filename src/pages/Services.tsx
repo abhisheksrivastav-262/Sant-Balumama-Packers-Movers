@@ -25,8 +25,8 @@ export default function ServicesPage() {
   return (
     <>
       <SEOHead
-        title="All Moving Services | Shri Swami Samarth Packers & Movers Navi Mumbai"
-        description="Explore all relocation services offered by Shri Swami Samarth Packers & Movers — house shifting, office relocation, car transport, packing, loading, and more in Navi Mumbai."
+        title="All Moving Services | Sant Balumama Packers and Movers Navi Mumbai"
+        description="Explore all relocation services offered by Sant Balumama Packers and Movers — house shifting, office relocation, car transport, packing, loading, and more in Navi Mumbai."
         canonical="/services"
       />
 

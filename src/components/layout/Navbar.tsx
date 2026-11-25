@@ -70,8 +70,8 @@ export default function Navbar() {
         <div className="container-wide">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2 sm:gap-3 min-w-0 flex-shrink" aria-label={COMPANY_NAME}>
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-[#092B70] to-[#164AA8] flex items-center justify-center flex-shrink-0 shadow-md">
+            <Link to="/" className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3 lg:flex-initial" aria-label={COMPANY_NAME}>
+              <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-xl bg-gradient-to-br from-[#092B70] to-[#164AA8] flex items-center justify-center flex-shrink-0 shadow-md">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                   {/* House shape */}
                   <path d="M14 4L3 12V25H11V18H17V25H25V12L14 4Z" fill="white" opacity="0.9"/>
@@ -80,9 +80,9 @@ export default function Navbar() {
                   <circle cx="20" cy="22" r="2" fill="#F47721"/>
                 </svg>
               </div>
-              <div className="min-w-0">
-                <div className="font-bold text-[#092B70] text-xs sm:text-sm leading-tight font-[Manrope] truncate">Shri Swami Samarth</div>
-                <div className="text-[10px] sm:text-[11px] text-[#F47721] font-semibold tracking-wide">Packers & Movers</div>
+              <div className="min-w-0 leading-tight">
+                <div className="whitespace-nowrap font-bold text-[#092B70] text-[13px] sm:text-sm md:text-base font-[Manrope]">Sant Balumama</div>
+                <div className="whitespace-nowrap text-[11px] sm:text-xs text-[#F47721] font-semibold tracking-wide">Packers and Movers</div>
               </div>
             </Link>
 

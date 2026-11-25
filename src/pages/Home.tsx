@@ -55,8 +55,8 @@ export default function HomePage() {
   return (
     <>
       <SEOHead
-        title="Shri Swami Samarth Packers & Movers | Navi Mumbai | House Shifting & Office Relocation"
-        description="Professional packers and movers in Navi Mumbai. Expert house shifting, office relocation, car transportation, packing and loading services. Based in Digha, Navi Mumbai. Call 9833951313."
+        title="Sant Balumama Packers and Movers | Navi Mumbai | House Shifting & Office Relocation"
+        description="Professional packers and movers in Navi Mumbai. Expert house shifting, office relocation, car transportation, packing and loading services. Based in Vashi, Navi Mumbai. Call 9082471774."
         canonical="/"
       />
 
@@ -124,7 +124,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <div className="font-bold text-[#17233D] text-sm">Household & Office Relocation</div>
-                        <div className="text-[#667085] text-xs">Based in Digha, Navi Mumbai</div>
+                        <div className="text-[#667085] text-xs">Based in Vashi, Navi Mumbai</div>
                       </div>
                     </div>
                   </div>
@@ -386,7 +386,7 @@ export default function HomePage() {
                 Your Belongings Deserve Thoughtful Care
               </h2>
               <p className="text-white/70 leading-relaxed mb-8">
-                At Shri Swami Samarth Packers & Movers, we understand that your possessions represent years of effort and memories. Every move we undertake reflects this understanding.
+                At Sant Balumama Packers and Movers, we understand that your possessions represent years of effort and memories. Every move we undertake reflects this understanding.
               </p>
               <ul className="space-y-3">
                 {whyChooseUs.map((item, i) => (
@@ -423,7 +423,7 @@ export default function HomePage() {
           <div className="text-center max-w-xl mx-auto mb-12">
             <span className="eyebrow">We Serve</span>
             <h2 className="text-3xl lg:text-4xl font-extrabold text-[#17233D] mb-4">Service Areas</h2>
-            <p className="text-[#667085]">Based in Digha, Navi Mumbai — serving the wider Mumbai region and domestic destinations across India.</p>
+            <p className="text-[#667085]">Based in Vashi, Navi Mumbai — serving the wider Mumbai region and domestic destinations across India.</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
             {[
@@ -535,7 +535,7 @@ export default function HomePage() {
             </a>
           </div>
           <p className="text-white/70 text-sm mt-6">
-            Also reachable at: <a href={`tel:+91${PHONE_SECONDARY}`} className="text-white font-semibold hover:underline">{PHONE_SECONDARY}</a>
+            WhatsApp: <a href={WHATSAPP_LINK} className="text-white font-semibold hover:underline">{PHONE_SECONDARY}</a>
           </p>
         </div>
       </section>

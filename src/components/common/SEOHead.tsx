@@ -37,7 +37,7 @@ export default function SEOHead({ title, description, canonical, ogImage }: SEOH
     }
 
     return () => {
-      document.title = 'Shri Swami Samarth Packers & Movers | Navi Mumbai';
+      document.title = 'Sant Balumama Packers and Movers | Navi Mumbai';
     };
   }, [title, description, canonical, ogImage]);
 

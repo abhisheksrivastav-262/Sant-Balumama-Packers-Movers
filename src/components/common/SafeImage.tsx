@@ -13,7 +13,7 @@ export default function SafeImage({ src, alt, fallbackSrc = DEFAULT_FALLBACK, cl
   return (
     <img
       src={hasError ? fallbackSrc : imgSrc}
-      alt={alt || 'Shri Swami Samarth Packers & Movers'}
+      alt={alt || 'Sant Balumama Packers and Movers'}
       className={className}
       onError={() => {
         if (!hasError) {

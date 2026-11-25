@@ -57,7 +57,7 @@ export default function Footer() {
                   </svg>
                 </div>
                 <div>
-                  <div className="font-bold text-white text-sm leading-tight">Shri Swami Samarth</div>
+                  <div className="font-bold text-white text-sm leading-tight">Sant Balumama</div>
                   <div className="text-[11px] text-[#F7BD38] font-semibold">Packers & Movers</div>
                 </div>
               </div>
@@ -70,8 +70,8 @@ export default function Footer() {
                 <a href={`tel:+91${PHONE_PRIMARY}`} className="flex items-center gap-2 text-white/80 hover:text-[#F47721] transition-colors text-sm">
                   <Phone size={14}/> {PHONE_PRIMARY}
                 </a>
-                <a href={`tel:+91${PHONE_SECONDARY}`} className="flex items-center gap-2 text-white/80 hover:text-[#F47721] transition-colors text-sm">
-                  <Phone size={14}/> {PHONE_SECONDARY}
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white/80 hover:text-[#25D366] transition-colors text-sm">
+                  <MessageCircle size={14}/> {PHONE_SECONDARY} WhatsApp
                 </a>
                 <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white/80 hover:text-[#25D366] transition-colors text-sm">
                   <MessageCircle size={14}/> WhatsApp Us

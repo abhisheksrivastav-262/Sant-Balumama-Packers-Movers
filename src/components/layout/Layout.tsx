@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import FloatingButtons from '@/components/common/FloatingButtons';
+import EnquiryPopup from '@/components/common/EnquiryPopup';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -24,6 +25,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
       <Footer />
       <FloatingButtons />
+      <EnquiryPopup />
     </div>
   );
 }

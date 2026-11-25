@@ -7,8 +7,8 @@ export default function NotFoundPage() {
   return (
     <>
       <SEOHead
-        title="404 - Page Not Found | Shri Swami Samarth Packers & Movers"
-        description="The page you are looking for does not exist. Browse our relocation services or contact Shri Swami Samarth Packers & Movers."
+        title="404 - Page Not Found | Sant Balumama Packers and Movers"
+        description="The page you are looking for does not exist. Browse our relocation services or contact Sant Balumama Packers and Movers."
       />
 
       <section className="py-24 md:py-32 bg-[#F5F7FB] min-h-[70vh] flex items-center">

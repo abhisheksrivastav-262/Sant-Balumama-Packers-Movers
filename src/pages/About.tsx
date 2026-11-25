@@ -7,15 +7,15 @@ const values = [
   { icon: <Heart size={20}/>, title: 'Care for Your Belongings', desc: 'We treat every item we handle as if it belongs to us — with attention and respect.' },
   { icon: <CheckCircle2 size={20}/>, title: 'Reliable Service', desc: 'We aim to do what we say and communicate clearly throughout the relocation process.' },
   { icon: <Users size={20}/>, title: 'Customer-First Approach', desc: 'Your requirements guide how we plan and execute each move.' },
-  { icon: <MapPin size={20}/>, title: 'Local Expertise', desc: 'Based in Digha, Navi Mumbai — we understand the local landscape and logistics.' },
+  { icon: <MapPin size={20}/>, title: 'Local Expertise', desc: 'Based in Kopri Gaon, Sector 26, Vashi — we understand the local landscape and logistics.' },
 ];
 
 export default function AboutPage() {
   return (
     <>
       <SEOHead
-        title="About Us | Shri Swami Samarth Packers & Movers, Digha Navi Mumbai"
-        description="Learn about Shri Swami Samarth Packers & Movers, a professional relocation company based in Digha, Navi Mumbai. Our approach to careful packing, organised moves, and customer care."
+        title="About Us | Sant Balumama Packers and Movers, Vashi Navi Mumbai"
+        description="Learn about Sant Balumama Packers and Movers, a professional relocation company based in Vashi, Navi Mumbai. Our approach to careful packing, organised moves, and customer care."
         canonical="/about"
       />
 
@@ -30,7 +30,7 @@ export default function AboutPage() {
                 Moving People Forward, With Care.
               </h1>
               <p className="text-white/75 text-lg leading-relaxed mb-6">
-                Shri Swami Samarth Packers & Movers is a professional relocation company based in Digha, Navi Mumbai. We provide organised and customer-focused moving services for households and businesses across Navi Mumbai, Mumbai, and domestic destinations across India.
+                Sant Balumama Packers and Movers is a professional relocation company based in Kopri Gaon, Sector 26, Vashi, Navi Mumbai. We provide organised and customer-focused moving services for households and businesses across Navi Mumbai, Mumbai, and domestic destinations across India.
               </p>
               <p className="hindi-text text-[#F7BD38] text-lg font-semibold italic mb-8">"{SLOGAN}"</p>
               <div className="flex flex-wrap gap-4">
@@ -56,7 +56,7 @@ export default function AboutPage() {
             <span className="eyebrow">Our Story</span>
             <h2 className="text-3xl font-extrabold text-[#17233D] mb-5">Rooted in Navi Mumbai, Committed to Your Move</h2>
             <p className="text-[#667085] leading-relaxed mb-4 text-lg">
-              Shri Swami Samarth Packers & Movers was established to provide Navi Mumbai's residents and businesses with a trustworthy, organised relocation option. We are based in Digha, Navi Mumbai, and our primary focus is helping our customers complete their moves with minimal stress.
+              Sant Balumama Packers and Movers was established to provide Navi Mumbai's residents and businesses with a trustworthy, organised relocation option. We are based in Vashi, Navi Mumbai, and our primary focus is helping our customers complete their moves with minimal stress.
             </p>
             <p className="text-[#667085] leading-relaxed mb-4">
               Our name reflects a deep sense of purpose and care — a commitment to showing up with the same dedication and respect for every customer, whether they are moving locally within Navi Mumbai or relocating to another city across India.
@@ -158,7 +158,7 @@ export default function AboutPage() {
           <span className="eyebrow text-[#F7BD38]">Get in Touch</span>
           <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Plan Your Move?</h2>
           <p className="text-white/70 mb-3">{ADDRESS}</p>
-          <p className="text-white/70 mb-8">Phone: {PHONE_PRIMARY} / {PHONE_SECONDARY}</p>
+          <p className="text-white/70 mb-8">Call: {PHONE_PRIMARY} · WhatsApp: {PHONE_SECONDARY}</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/get-a-quote" className="btn-primary">Request a Free Quote <ArrowRight size={14}/></Link>
             <a href={`tel:+91${PHONE_PRIMARY}`} className="btn-white"><Phone size={14}/> Call Us</a>

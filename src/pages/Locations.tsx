@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin, ChevronRight } from 'lucide-react';
 import SEOHead from '@/components/common/SEOHead';
 import { locations } from '@/data/locations';
-import { PHONE_PRIMARY } from '@/data/constants';
+import { PHONE_PRIMARY, ADDRESS } from '@/data/constants';
 
 export default function LocationsPage() {
   return (
     <>
       <SEOHead
-        title="Service Locations | Shri Swami Samarth Packers & Movers Navi Mumbai"
-        description="Shri Swami Samarth Packers & Movers serves Digha, Airoli, Ghansoli, Vashi, Nerul, Thane, Mumbai and domestic destinations across India. Find your location."
+        title="Service Locations | Sant Balumama Packers and Movers Navi Mumbai"
+        description="Sant Balumama Packers and Movers serves Digha, Airoli, Ghansoli, Vashi, Nerul, Thane, Mumbai and domestic destinations across India. Find your location."
         canonical="/locations"
       />
 
@@ -20,7 +20,7 @@ export default function LocationsPage() {
           <span className="eyebrow text-[#F7BD38]">Where We Operate</span>
           <h1 className="text-white text-4xl lg:text-5xl font-extrabold mb-4">Our Service Areas</h1>
           <p className="text-white/75 text-lg max-w-2xl mx-auto mb-8">
-            Based in Digha, Navi Mumbai — we serve local areas across Navi Mumbai, Mumbai, and facilitate domestic relocation across India.
+            Based in Vashi, Navi Mumbai — we serve local areas across Navi Mumbai, Mumbai, and facilitate domestic relocation across India.
           </p>
           <Link to="/get-a-quote" className="btn-primary">Get a Free Quote <ArrowRight size={14}/></Link>
         </div>
@@ -32,12 +32,12 @@ export default function LocationsPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <span className="eyebrow">Our Home Base</span>
-              <h2 className="text-3xl font-extrabold text-[#17233D] mb-4">Digha, Navi Mumbai — 400708</h2>
+              <h2 className="text-3xl font-extrabold text-[#17233D] mb-4">Kopri Gaon, Sector 26, Vashi</h2>
               <p className="text-[#667085] leading-relaxed mb-6">
-                Shri Swami Samarth Packers & Movers is based in Digha, Navi Mumbai. This is our primary operating location, and we serve the surrounding areas with local relocation and domestic moving services. Our team's familiarity with Digha and the wider Navi Mumbai region means we can plan your move efficiently.
+                Sant Balumama Packers and Movers is based in {ADDRESS}. We serve the surrounding areas with local relocation and domestic moving services and can plan moves across Navi Mumbai efficiently.
               </p>
               <div className="flex items-center gap-3 text-[#17233D] font-semibold mb-2">
-                <MapPin size={16} className="text-[#F47721]"/> Digha, Navi Mumbai, Maharashtra - 400708
+                <MapPin size={16} className="text-[#F47721]"/> {ADDRESS}
               </div>
               <div className="flex gap-4 mt-6">
                 <a href={`tel:+91${PHONE_PRIMARY}`} className="btn-primary">Call Us <ArrowRight size={14}/></a>

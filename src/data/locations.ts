@@ -15,15 +15,15 @@ export const locations: Location[] = [
     slug: 'digha-navi-mumbai',
     name: 'Digha',
     fullName: 'Digha, Navi Mumbai',
-    description: 'Our home base in Digha, Navi Mumbai. We provide local and domestic moving services from this location with an understanding of the area\'s residential and commercial landscape.',
+    description: 'We provide local and domestic moving services in Digha, Navi Mumbai, with an understanding of the area\'s residential and commercial landscape.',
     highlights: [
       'Local moves within Digha and nearby areas',
       'Easy access to major Navi Mumbai routes',
       'Residential colony expertise',
       'Quick response for local enquiries',
     ],
-    metaTitle: 'Packers and Movers in Digha Navi Mumbai | Shri Swami Samarth',
-    metaDescription: 'Looking for reliable packers and movers in Digha, Navi Mumbai? Shri Swami Samarth Packers & Movers offers house shifting, office relocation, and vehicle transport services.',
+    metaTitle: 'Packers and Movers in Digha Navi Mumbai | Sant Balumama',
+    metaDescription: 'Looking for reliable packers and movers in Digha, Navi Mumbai? Sant Balumama Packers and Movers offers house shifting, office relocation, and vehicle transport services.',
   },
   {
     id: 'airoli',
@@ -37,7 +37,7 @@ export const locations: Location[] = [
       'Local and intercity moving',
       'Vehicle transportation enquiries',
     ],
-    metaTitle: 'Packers and Movers in Airoli Navi Mumbai | Shri Swami Samarth',
+    metaTitle: 'Packers and Movers in Airoli Navi Mumbai | Sant Balumama',
     metaDescription: 'Professional packers and movers in Airoli, Navi Mumbai. House shifting, office relocation, and packing services. Contact for a free moving quote.',
   },
   {
@@ -52,7 +52,7 @@ export const locations: Location[] = [
       'Packing and loading services',
       'Intercity relocation coordination',
     ],
-    metaTitle: 'Packers and Movers in Ghansoli Navi Mumbai | Shri Swami Samarth',
+    metaTitle: 'Packers and Movers in Ghansoli Navi Mumbai | Sant Balumama',
     metaDescription: 'Trusted packers and movers in Ghansoli, Navi Mumbai. Expert house shifting and packing services. Get in touch for a free moving enquiry.',
   },
   {
@@ -67,7 +67,7 @@ export const locations: Location[] = [
       'Local Navi Mumbai relocation',
       'Domestic moving services',
     ],
-    metaTitle: 'Packers and Movers in Vashi Navi Mumbai | Shri Swami Samarth',
+    metaTitle: 'Packers and Movers in Vashi Navi Mumbai | Sant Balumama',
     metaDescription: 'Reliable packers and movers in Vashi, Navi Mumbai. Household and office relocation services. Contact us for a free quotation today.',
   },
   {
@@ -82,7 +82,7 @@ export const locations: Location[] = [
       'Local Navi Mumbai moves',
       'Packing and transport coordination',
     ],
-    metaTitle: 'Packers and Movers in Nerul Navi Mumbai | Shri Swami Samarth',
+    metaTitle: 'Packers and Movers in Nerul Navi Mumbai | Sant Balumama',
     metaDescription: 'Professional packers and movers in Nerul, Navi Mumbai. House shifting, packing, and office relocation services. Request a free moving quote.',
   },
   {
@@ -97,7 +97,7 @@ export const locations: Location[] = [
       'Intercity moving coordination',
       'Vehicle transportation enquiries',
     ],
-    metaTitle: 'Packers and Movers in Thane | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Packers and Movers in Thane | Sant Balumama Packers and Movers',
     metaDescription: 'Packers and movers in Thane, Maharashtra. House shifting, office relocation, and intercity moving services. Contact for a free relocation quote.',
   },
   {
@@ -112,7 +112,7 @@ export const locations: Location[] = [
       'Office and commercial relocation',
       'Domestic moves from Mumbai',
     ],
-    metaTitle: 'Packers and Movers in Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Packers and Movers in Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Professional packers and movers in Mumbai. House shifting, office relocation, and domestic moving services. Get a free moving quote today.',
   },
 ];

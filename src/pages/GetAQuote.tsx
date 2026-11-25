@@ -55,7 +55,6 @@ const vehicleTypes = [
 export default function GetAQuotePage() {
   const [step, setStep] = useState(1);
   const [submitted, setSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const pickupId = useId();
@@ -131,14 +130,11 @@ export default function GetAQuotePage() {
     window.scrollTo({ top: 150, behavior: 'smooth' });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateStep(4)) return;
 
-    setIsSubmitting(true);
-    // Simulate submission delay
-    await new Promise(r => setTimeout(r, 900));
-    setIsSubmitting(false);
+    handleWhatsAppRedirect();
     setSubmitted(true);
   };
 
@@ -154,14 +150,14 @@ export default function GetAQuotePage() {
       (form.notes ? `• Notes: ${form.notes}\n` : '') +
       `Please provide your best price and availability.`
     );
-    window.open(`https://wa.me/91${PHONE_PRIMARY}?text=${text}`, '_blank');
+    window.open(`https://wa.me/91${PHONE_SECONDARY}?text=${text}`, '_blank');
   };
 
   return (
     <>
       <SEOHead
-        title="Get Free Moving Quote | Shri Swami Samarth Packers & Movers Navi Mumbai"
-        description="Calculate moving cost and get an instant free quotation for house shifting, office relocation, or vehicle moving in Navi Mumbai, Mumbai, Thane and intercity. Call 9833951313."
+        title="Get Free Moving Quote | Sant Balumama Packers and Movers Navi Mumbai"
+        description="Calculate moving cost and get an instant free quotation for house shifting, office relocation, or vehicle moving in Navi Mumbai, Mumbai, Thane and intercity. Call 9082471774."
         canonical="/get-a-quote"
       />
 
@@ -685,10 +681,9 @@ export default function GetAQuotePage() {
                       </button>
                       <button
                         type="submit"
-                        disabled={isSubmitting}
                         className="btn-primary text-xs sm:text-sm px-5 py-2.5 inline-flex items-center gap-1.5"
                       >
-                        {isSubmitting ? 'Submitting...' : 'Submit Request'} <CheckCircle2 size={16} />
+                        Submit Request <CheckCircle2 size={16} />
                       </button>
                     </div>
                   )}

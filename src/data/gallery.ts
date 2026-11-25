@@ -41,7 +41,7 @@ const packingWorkItems: GalleryItem[] = packingWorkDetails.map(([title, descript
   categoryLabel: 'Packing & Loading',
   image: `/images/packing-work/packing-${String(index + 1).padStart(2, '0')}.jpeg`,
   description,
-  location: 'Shri Swami Samarth Packers & Movers',
+  location: 'Sant Balumama Packers and Movers',
 }));
 
 const stockGalleryItems: GalleryItem[] = [

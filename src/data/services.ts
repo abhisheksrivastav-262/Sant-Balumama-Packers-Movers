@@ -34,7 +34,7 @@ export const services: Service[] = [
       { question: 'Do you pack all types of household items?', answer: 'Yes, we pack a wide range of household items including furniture, appliances, kitchenware, clothing, and general household goods. Please let us know if you have specific items requiring special care.' },
       { question: 'Can I get a quotation before the move?', answer: 'Absolutely. Contact us with your pickup location, destination, approximate household size, and preferred date, and our team will provide you with a moving estimate.' },
     ],
-    metaTitle: 'House Shifting Services in Navi Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'House Shifting Services in Navi Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Professional house shifting services in Navi Mumbai and Mumbai. Expert packing, loading, transport, and unloading of all household items. Contact us for a free quote.',
   },
   {
@@ -58,7 +58,7 @@ export const services: Service[] = [
       { question: 'Do you handle IT equipment?', answer: 'We can help with the physical transportation of office equipment. For sensitive IT hardware, we recommend you coordinate with your IT team for safe disconnection and reconnection.' },
       { question: 'How do I get an office relocation quote?', answer: 'Contact us with details of your office location, destination, approximate scale of the move, and your preferred timeline. We\'ll get back to you with next steps.' },
     ],
-    metaTitle: 'Office Relocation Services in Navi Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Office Relocation Services in Navi Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Reliable office relocation services in Navi Mumbai. Organised handling of office furniture, equipment, and business assets. Request a business move quote today.',
   },
   {
@@ -82,7 +82,7 @@ export const services: Service[] = [
       { question: 'How is the quotation calculated for long-distance moves?', answer: 'Quotations for intercity moves depend on several factors including distance, volume of goods, type of items, and access conditions at both locations.' },
       { question: 'How early should I book for a domestic move?', answer: 'We recommend reaching out as early as possible to ensure your preferred date is available and to allow adequate planning time.' },
     ],
-    metaTitle: 'Local & Domestic Shifting Services Navi Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Local & Domestic Shifting Services Navi Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Local shifting in Navi Mumbai and domestic relocation across India. Experienced packers and movers for intercity moves. Get your free moving estimate.',
   },
   {
@@ -106,7 +106,7 @@ export const services: Service[] = [
       { question: 'How long does vehicle transportation take?', answer: 'Transit duration depends on the origin and destination locations. We can give you a better indication once we understand your specific requirements.' },
       { question: 'What documents are required for vehicle transportation?', answer: 'Typically, vehicle registration documents may be required. We will guide you on documentation requirements when you confirm your booking.' },
     ],
-    metaTitle: 'Car & Bike Transportation Services Navi Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Car & Bike Transportation Services Navi Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Vehicle transportation services in Navi Mumbai. Safe car and bike transport coordination with protective handling. Contact us for a vehicle transport quote.',
   },
   {
@@ -130,7 +130,7 @@ export const services: Service[] = [
       { question: 'Can I use my own packing boxes?', answer: 'You are welcome to provide your own boxes. Please let us know in advance so we can plan the loading accordingly.' },
       { question: 'Is packing included in the house shifting service?', answer: 'Packing may be included as part of a combined service. Please discuss your specific requirements when requesting a quotation.' },
     ],
-    metaTitle: 'Packing & Loading Services Navi Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Packing & Loading Services Navi Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Professional packing and loading services in Navi Mumbai. Expert handling of all household items with quality packing materials. Request a packing service quote.',
   },
   {
@@ -154,7 +154,7 @@ export const services: Service[] = [
       { question: 'Is unpacking included in the service?', answer: 'Unpacking assistance may be available as part of certain service packages. Please discuss this requirement when you book.' },
       { question: 'What if something needs to be moved after unloading?', answer: 'Our team can accommodate reasonable repositioning of items during the unloading process. Please communicate your preferences before unloading begins.' },
     ],
-    metaTitle: 'Unloading Services Navi Mumbai | Shri Swami Samarth Packers & Movers',
+    metaTitle: 'Unloading Services Navi Mumbai | Sant Balumama Packers and Movers',
     metaDescription: 'Professional unloading services in Navi Mumbai. Careful placement of your belongings with unpacking assistance available. Contact us for moving help.',
   },
 ];

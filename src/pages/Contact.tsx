@@ -42,18 +42,17 @@ export default function ContactPage() {
     return Object.keys(errs).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
-    setSubmitting(true);
-
-    // ── Backend Integration Point ────────────────────────────────
-    // Connect this form to your backend, email service (e.g., EmailJS,
-    // Formspree, or your own Node/PHP API) to process enquiries.
-    // Example: await fetch('/api/enquiry', { method:'POST', body: JSON.stringify(formData) })
-    // ─────────────────────────────────────────────────────────────
-
-    await new Promise(r => setTimeout(r, 1200)); // Simulated delay
+    const enquiry = encodeURIComponent(
+      `Hello ${COMPANY_NAME}, I would like to enquire about your services:\n` +
+      `Name: ${formData.name}\nMobile: ${formData.mobile}\nEmail: ${formData.email || 'Not provided'}\n` +
+      `Service: ${formData.service || 'Not specified'}\nFrom: ${formData.pickupLocation}\n` +
+      `To: ${formData.destinationLocation}\nMoving date: ${formData.movingDate || 'Flexible'}\n` +
+      `Move size: ${formData.moveSize || 'Not specified'}\nMessage: ${formData.message || 'None'}`
+    );
+    window.open(`https://wa.me/91${PHONE_SECONDARY}?text=${enquiry}`, '_blank', 'noopener,noreferrer');
     setSubmitting(false);
     setSubmitted(true);
   };
@@ -71,7 +70,7 @@ export default function ContactPage() {
     <>
       <SEOHead
         title={`Contact Us | ${COMPANY_NAME} | Navi Mumbai`}
-        description="Contact Shri Swami Samarth Packers & Movers in Digha, Navi Mumbai. Call 9833951313, WhatsApp, or fill the enquiry form for house shifting, office relocation, and moving services."
+        description={`Contact ${COMPANY_NAME} in ${ADDRESS}. Call ${PHONE_PRIMARY}, WhatsApp, or fill the enquiry form for house shifting, office relocation, and moving services.`}
         canonical="/contact"
       />
 
@@ -98,9 +97,8 @@ export default function ContactPage() {
                     <Phone size={18} className="text-[#F47721]"/>
                   </div>
                   <div>
-                    <div className="font-bold text-[#17233D] text-sm mb-1">Phone Numbers</div>
+                    <div className="font-bold text-[#17233D] text-sm mb-1">Call</div>
                     <a href={`tel:+91${PHONE_PRIMARY}`} className="block text-[#667085] text-sm hover:text-[#F47721] transition-colors">{PHONE_PRIMARY}</a>
-                    <a href={`tel:+91${PHONE_SECONDARY}`} className="block text-[#667085] text-sm hover:text-[#F47721] transition-colors">{PHONE_SECONDARY}</a>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -109,7 +107,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="font-bold text-[#17233D] text-sm mb-1">WhatsApp</div>
-                    <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-[#667085] text-sm hover:text-[#25D366] transition-colors">{PHONE_PRIMARY}</a>
+                    <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-[#667085] text-sm hover:text-[#25D366] transition-colors">{PHONE_SECONDARY}</a>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -151,11 +149,11 @@ export default function ContactPage() {
                     Thank you for reaching out. Our team will review your details and get back to you.
                   </p>
                   <p className="text-[#667085] text-sm mb-6">
-                    For immediate assistance, call us at{' '}
+                  For immediate assistance, call us at{' '}
                     <a href={`tel:+91${PHONE_PRIMARY}`} className="text-[#F47721] font-semibold">{PHONE_PRIMARY}</a>
                   </p>
                   <p className="text-xs text-[#667085] italic bg-[#F5F7FB] px-4 py-2 rounded-lg border border-[#E5EAF2]">
-                    Note: This form is currently in demo mode. Backend integration is required to deliver submissions to your inbox.
+                    Your enquiry details have been opened in WhatsApp. Tap send to deliver them to us.
                   </p>
                 </div>
               ) : (
